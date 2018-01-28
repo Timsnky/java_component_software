@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_LSTF4CGjEeeNb5MJgAMQJw" name="NewModel">
+  <packagedElement xmi:type="uml:Class" xmi:id="_hFKVQCGjEeeNb5MJgAMQJw" name="EuropeanFordMustang">
+    <interfaceRealization xmi:id="_kxIl0CGlEeeNb5MJgAMQJw" client="_hFKVQCGjEeeNb5MJgAMQJw" supplier="_HlZrcCGlEeeNb5MJgAMQJw" contract="_HlZrcCGlEeeNb5MJgAMQJw"/>
+    <ownedOperation xmi:id="_8ZMuMCGjEeeNb5MJgAMQJw" name="getFeatures"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_GK8VECGkEeeNb5MJgAMQJw" name="EuropeanFordGT">
+    <interfaceRealization xmi:id="_bU8YMCGlEeeNb5MJgAMQJw" client="_GK8VECGkEeeNb5MJgAMQJw" supplier="_HlZrcCGlEeeNb5MJgAMQJw" contract="_HlZrcCGlEeeNb5MJgAMQJw"/>
+    <ownedOperation xmi:id="_GK8VESGkEeeNb5MJgAMQJw" name="getFeatures"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Og-y8CGkEeeNb5MJgAMQJw" name="NorthAmericanFordGT">
+    <interfaceRealization xmi:id="_l2LiUCGlEeeNb5MJgAMQJw" client="_Og-y8CGkEeeNb5MJgAMQJw" supplier="_HlZrcCGlEeeNb5MJgAMQJw" contract="_HlZrcCGlEeeNb5MJgAMQJw"/>
+    <ownedOperation xmi:id="_Og-y8SGkEeeNb5MJgAMQJw" name="getFeatures"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_iade0CGkEeeNb5MJgAMQJw" name="NorthAmericanFordMustang">
+    <interfaceRealization xmi:id="_n-BYkCGlEeeNb5MJgAMQJw" client="_iade0CGkEeeNb5MJgAMQJw" supplier="_HlZrcCGlEeeNb5MJgAMQJw" contract="_HlZrcCGlEeeNb5MJgAMQJw"/>
+    <ownedOperation xmi:id="_iade0SGkEeeNb5MJgAMQJw" name="getFeatures"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_pN2eMCGkEeeNb5MJgAMQJw" name="AsianFordGT">
+    <interfaceRealization xmi:id="_aJ0B0CGlEeeNb5MJgAMQJw" client="_pN2eMCGkEeeNb5MJgAMQJw" supplier="_HlZrcCGlEeeNb5MJgAMQJw" contract="_HlZrcCGlEeeNb5MJgAMQJw"/>
+    <ownedOperation xmi:id="_pN2eMSGkEeeNb5MJgAMQJw" name="getFeatures"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_tbEskCGkEeeNb5MJgAMQJw" name="AsianFordMustang">
+    <interfaceRealization xmi:id="_UmfjMCGlEeeNb5MJgAMQJw" client="_tbEskCGkEeeNb5MJgAMQJw" supplier="_HlZrcCGlEeeNb5MJgAMQJw" contract="_HlZrcCGlEeeNb5MJgAMQJw"/>
+    <ownedOperation xmi:id="_v4S88CGkEeeNb5MJgAMQJw" name="getFeatures"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_HlZrcCGlEeeNb5MJgAMQJw" name="CarFeatures">
+    <ownedOperation xmi:id="_KMtE4CGlEeeNb5MJgAMQJw" name="getFeatures"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_u8xTYCGlEeeNb5MJgAMQJw" name="FordGTFactory">
+    <interfaceRealization xmi:id="_akCqQCGmEeeNb5MJgAMQJw" client="_u8xTYCGlEeeNb5MJgAMQJw" supplier="_FfXWkCGmEeeNb5MJgAMQJw" contract="_FfXWkCGmEeeNb5MJgAMQJw"/>
+    <ownedOperation xmi:id="_zYw9kCGlEeeNb5MJgAMQJw" name="getRegion">
+      <ownedParameter xmi:id="_0_QaQCGlEeeNb5MJgAMQJw" name="region">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/XMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_BJjz8CGmEeeNb5MJgAMQJw" name="FordMustangFactory">
+    <interfaceRealization xmi:id="_Z3DBYCGmEeeNb5MJgAMQJw" client="_BJjz8CGmEeeNb5MJgAMQJw" supplier="_FfXWkCGmEeeNb5MJgAMQJw" contract="_FfXWkCGmEeeNb5MJgAMQJw"/>
+    <ownedOperation xmi:id="_BJjz8SGmEeeNb5MJgAMQJw" name="getRegion">
+      <ownedParameter xmi:id="_BJjz8iGmEeeNb5MJgAMQJw" name="region">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/XMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_FfXWkCGmEeeNb5MJgAMQJw" name="RegionManager">
+    <ownedOperation xmi:id="_UgkE4CGmEeeNb5MJgAMQJw" name="getRegion">
+      <ownedParameter xmi:id="_VnScYCGmEeeNb5MJgAMQJw" name="region">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/XMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_cHk5kCGmEeeNb5MJgAMQJw" name="FordCars">
+    <generalization xmi:id="_2AtawCGmEeeNb5MJgAMQJw" general="_hp55sCGmEeeNb5MJgAMQJw"/>
+    <ownedOperation xmi:id="_fWGEACGmEeeNb5MJgAMQJw" name="main"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_hp55sCGmEeeNb5MJgAMQJw" name="CarFactory">
+    <interfaceRealization xmi:id="_3P4joCGmEeeNb5MJgAMQJw" client="_hp55sCGmEeeNb5MJgAMQJw" supplier="_prZq8CGmEeeNb5MJgAMQJw" contract="_prZq8CGmEeeNb5MJgAMQJw"/>
+    <ownedOperation xmi:id="_jyevwCGmEeeNb5MJgAMQJw" name="getCar">
+      <ownedParameter xmi:id="_lPNzgCGmEeeNb5MJgAMQJw" name="package">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/XMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_prZq8CGmEeeNb5MJgAMQJw" name="CarPackageManager">
+    <ownedOperation xmi:id="_s9S5gCGmEeeNb5MJgAMQJw" name="getCar">
+      <ownedParameter xmi:id="_t532gCGmEeeNb5MJgAMQJw" name="package">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/XMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+</uml:Model>

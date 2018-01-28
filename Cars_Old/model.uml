@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_ezhE4LSZEeaVwaR0zE6JQA" name="NewModel">
+  <packagedElement xmi:type="uml:Interface" xmi:id="_rpwXgLSZEeaVwaR0zE6JQA" name="CarFeatures">
+    <ownedOperation xmi:id="_-qEmwLSZEeaVwaR0zE6JQA" name="getFeatures"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_4IVGILSbEeaVwaR0zE6JQA" name="RegionManager">
+    <ownedOperation xmi:id="_IvBLkLScEeaVwaR0zE6JQA" name="getRegion">
+      <ownedParameter xmi:id="_Kunr0LScEeaVwaR0zE6JQA" name="region">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_uzoyMLScEeaVwaR0zE6JQA" name="CarPackageManager">
+    <ownedOperation xmi:id="_ySQ1MLScEeaVwaR0zE6JQA" name="getCar">
+      <ownedParameter xmi:id="_5R45wLScEeaVwaR0zE6JQA" name="package">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_JZmkMLSdEeaVwaR0zE6JQA" name="EuropeanPerformance">
+    <interfaceRealization xmi:id="_DFTfILSeEeaVwaR0zE6JQA" client="_JZmkMLSdEeaVwaR0zE6JQA" supplier="_rpwXgLSZEeaVwaR0zE6JQA" contract="_rpwXgLSZEeaVwaR0zE6JQA"/>
+    <ownedOperation xmi:id="_1iah4LSdEeaVwaR0zE6JQA" name="getFeatures"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_F2UYwLSfEeaVwaR0zE6JQA" name="EuropeanLuxury">
+    <interfaceRealization xmi:id="_AYB5MLShEeaVwaR0zE6JQA" client="_F2UYwLSfEeaVwaR0zE6JQA" supplier="_rpwXgLSZEeaVwaR0zE6JQA" contract="_rpwXgLSZEeaVwaR0zE6JQA"/>
+    <ownedOperation xmi:id="_89EqsLSfEeaVwaR0zE6JQA" name="getFeatures"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_R1qfoLSfEeaVwaR0zE6JQA" name="AsianPerformance">
+    <interfaceRealization xmi:id="_EwGFoLShEeaVwaR0zE6JQA" client="_R1qfoLSfEeaVwaR0zE6JQA" supplier="_rpwXgLSZEeaVwaR0zE6JQA" contract="_rpwXgLSZEeaVwaR0zE6JQA"/>
+    <ownedOperation xmi:id="_UuvlkLSfEeaVwaR0zE6JQA" name="getFeatures"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_TDwN8LSgEeaVwaR0zE6JQA" name="AsianLuxury">
+    <interfaceRealization xmi:id="_RpdkwLShEeaVwaR0zE6JQA" client="_TDwN8LSgEeaVwaR0zE6JQA" supplier="_rpwXgLSZEeaVwaR0zE6JQA" contract="_rpwXgLSZEeaVwaR0zE6JQA"/>
+    <ownedOperation xmi:id="_ZtJj0LSgEeaVwaR0zE6JQA" name="getFeatures"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_hbJKQLSgEeaVwaR0zE6JQA" name="NorthAmericanPerformance">
+    <interfaceRealization xmi:id="_WIHhYLShEeaVwaR0zE6JQA" client="_hbJKQLSgEeaVwaR0zE6JQA" supplier="_rpwXgLSZEeaVwaR0zE6JQA" contract="_rpwXgLSZEeaVwaR0zE6JQA"/>
+    <ownedOperation xmi:id="_qOvt4LSgEeaVwaR0zE6JQA" name="getFeatures"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_3MG8MLSgEeaVwaR0zE6JQA" name="NorthAmericanLuxury">
+    <interfaceRealization xmi:id="_Xmj1ULShEeaVwaR0zE6JQA" client="_3MG8MLSgEeaVwaR0zE6JQA" supplier="_rpwXgLSZEeaVwaR0zE6JQA" contract="_rpwXgLSZEeaVwaR0zE6JQA"/>
+    <ownedOperation xmi:id="_6n9_ELSgEeaVwaR0zE6JQA" name="getFeatures"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_aSP_gLShEeaVwaR0zE6JQA" name="LuxuryFactory">
+    <interfaceRealization xmi:id="_2nLh0LSuEeaVwaR0zE6JQA" client="_aSP_gLShEeaVwaR0zE6JQA" supplier="_4IVGILSbEeaVwaR0zE6JQA" contract="_4IVGILSbEeaVwaR0zE6JQA"/>
+    <ownedOperation xmi:id="_svzCcLStEeaVwaR0zE6JQA" name="getRegion">
+      <ownedParameter xmi:id="_b6WS0LSuEeaVwaR0zE6JQA" name="region">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_hiMFELSuEeaVwaR0zE6JQA" name="CarFactory">
+    <interfaceRealization xmi:id="_5DRw0LSuEeaVwaR0zE6JQA" client="_hiMFELSuEeaVwaR0zE6JQA" supplier="_uzoyMLScEeaVwaR0zE6JQA" contract="_uzoyMLScEeaVwaR0zE6JQA"/>
+    <ownedOperation xmi:id="_mXWdMLSuEeaVwaR0zE6JQA" name="getCar">
+      <ownedParameter xmi:id="_o_RhsLSuEeaVwaR0zE6JQA" name="package">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_8j8bMLSuEeaVwaR0zE6JQA" name="ChevroletCars">
+    <generalization xmi:id="_FCrFkLSwEeaVwaR0zE6JQA" general="_hiMFELSuEeaVwaR0zE6JQA"/>
+    <ownedOperation xmi:id="_lbSBELSvEeaVwaR0zE6JQA" name="main"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_fmHSwLTWEeaVwaR0zE6JQA" name="PerformanceFactory">
+    <interfaceRealization xmi:id="_IDBmcLTXEeaVwaR0zE6JQA" client="_fmHSwLTWEeaVwaR0zE6JQA" supplier="_4IVGILSbEeaVwaR0zE6JQA" contract="_4IVGILSbEeaVwaR0zE6JQA"/>
+    <ownedOperation xmi:id="_9CG2sLTWEeaVwaR0zE6JQA" name="getRegion">
+      <ownedParameter xmi:id="_Cdao0LTXEeaVwaR0zE6JQA" name="region">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+</uml:Model>
